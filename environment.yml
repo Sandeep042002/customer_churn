@@ -1,0 +1,15 @@
+name: customer_env  # Environment name
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - xgboost
+      - mlflow
+prefix: D:\customer_prediction
