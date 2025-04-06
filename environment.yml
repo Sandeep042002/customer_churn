@@ -1,4 +1,4 @@
-name: customer_env  # Environment name
+name: churn_env  # Environment name
 channels:
   - defaults
 dependencies:
